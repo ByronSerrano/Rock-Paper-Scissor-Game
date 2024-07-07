@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.text {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.title {
+    font-size: 3em;
+    margin: 0.5em;
+}
+
+.move-button {
+    padding: 17px 17px;
+    margin: 0.3em;
+    font-size: 70px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 85px;
+}
+
+.move-button:hover {
+    cursor: pointer;
+    background-color: rgb(29, 29, 29);
+}
+
+.move-button:active {
+    background-color: rgb(131, 130, 130);
+}
+
+.reset-button {
+    padding: 12px 30px;
+    margin: 0.6em;
+    margin-bottom: 2%;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: rgb(29, 29, 29);
+}
+.reset-button:active {
+    background-color: rgb(131, 130, 130);
+}
+
+#js-score {
+    margin-top: 2em;
+}
+
+.clickedAutoPlay {
+    background-color: rgb(123, 0, 0);
+}
